@@ -4,7 +4,7 @@ import java.lang.*;
 public class AlterDatabase extends DataBaseManipulator{
 	public static void main(String[] args) {
 		
-		updateMySQL(getSQL(args));
+		updateMySQL(getSQL(args), Boolean.FALSE);
 	}
 	
 	private static String getSQL(String[] args) {
